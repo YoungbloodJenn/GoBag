@@ -1,0 +1,215 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: darkslategrey;
+}
+
+p {
+	font-size: 16px;
+	line-height: 25px;
+}
+  
+.topnav {
+	font-family: 'Fredericka the Great', cursive;
+	overflow: hidden;
+	background-color: #95BE6F;
+	position: relative;
+  }
+  
+.topnav #myLinks {
+	display: none;
+	color: black;
+  }
+  
+.topnav a {
+	color: white;
+	padding: 20px 30px;
+	font-size: 20px;
+	display: block;
+  }
+  
+.topnav a.icon {
+	background: #12255A;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+    
+.active {
+	background-color: #0D4F9E;
+	color: white;
+	text-transform: uppercase;
+  }
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+	text-transform: uppercase;
+}
+
+#backpack {
+	width: 40%;
+	padding: 15px 30px 10px 40px;
+}
+
+.imgHolder {
+	position: relative;
+	float: right;
+	border: 5px black double;
+	margin: 30px;
+}
+
+.imgHolder span {
+    position: absolute;
+    right: 30px;
+	top: -50px;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 50px;
+}
+
+h3{
+	margin-left: 50px;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #95BE6F;
+	width: 40%;
+	padding: 10px;
+	margin-left: 80px;
+	font-size: 18px;
+	line-height: 2;
+}
+
+button{
+	background-color: #C41F27;
+	color: whitesmoke;
+	float: right;
+	margin-right: 200px;
+	height: 60px;
+	width: 300px;
+	font-size: 20px;
+	border: 5px whitesmoke double;
+}
+
+.modal-background {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .3);
+  
+	/*don't show modal on load*/
+	display: none; 
+  
+	/* position modal fixed middle of page  */
+	position: fixed; 
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  
+   /* using flexbox to align & justify center when displayed */
+   	align-items: center;
+	justify-content: center;
+  }
+  
+  .modal-content {
+	padding: 40px 20px;
+	color: #444;
+	background-color: white;
+	width: 60%;
+	text-align: center;
+  }
+
+footer {
+	background-color:#0D4F9E;
+	color: white;
+	text-align: center;
+	width: 100%;
+	letter-spacing: .2em;
+}
+
+#shopping{
+	font-size: 20px;
+	color: darkslateblue;
+	background-color: lightgoldenrodyellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40%;
+}
+
+#affiliatebox{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	margin: 2%;
+}
+
+#resources{
+	background-color: #95BE6F;
+	margin: 8% 20% 8% 20%;
+	color: white;
+}
+
+ol {
+	font-size: 20px;
+	line-height: 40px;
+	list-style-type: square;
+	margin-left: 20%;
+}
+
+.resourceImg {
+	display:none;
+}
+
+.imagecarousel{
+	float: right;
+	margin-top: -4%;
+}
+
+#emergency-exit {
+	display: block;
+	float: right;
+	width: 40%;
+	padding: 100px 50px 50px 50px;
+}
+
+#kids {
+	text-align: center;
+}
+
+#getintouch{
+	display: flex;
+	flex-flow: column;
+	padding-top: 2%;
+}
+#submit {
+	background-color: #12255A;
+	color: white;
+	border-style: solid;
+	height: 30px;
+	width: 100px;;
+	font-size: 15px;
+}
+textarea{
+    height: 100px;
+    width: 50%;
+}
+
+/* input {
+	border: 1px solid grey;
+	display: block;
+	width: 50%;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  } */
